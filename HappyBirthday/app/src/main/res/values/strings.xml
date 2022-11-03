@@ -3,4 +3,7 @@
     <string name="no">no</string>
     <string name="roll">roll</string>
     <string name="todo">TODO</string>
+    <string name="hello_world">Hello,world!</string>
+    <string name="textview">TextView</string>
+    <string name="lemon">TODO</string>
 </resources>
