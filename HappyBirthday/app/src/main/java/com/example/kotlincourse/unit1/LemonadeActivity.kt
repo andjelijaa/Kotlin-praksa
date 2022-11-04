@@ -1,4 +1,4 @@
-package com.example.happybirthday
+package com.example.kotlincourse
 
 import android.os.Bundle
 import android.widget.ImageView

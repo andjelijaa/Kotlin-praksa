@@ -1,8 +1,7 @@
-package com.example.happybirthday
+package com.example.kotlincourse
 
 import org.junit.Test
 
-import org.junit.Assert.*
 import org.junit.Assert.assertTrue
 /**
  * Example local unit test, which will execute on the development machine (host).
