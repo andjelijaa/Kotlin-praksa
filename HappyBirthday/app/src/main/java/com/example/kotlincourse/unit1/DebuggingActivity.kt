@@ -1,9 +1,10 @@
-package com.example.happybirthday
+package com.example.kotlincourse.unit1
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.kotlincourse.R
 import kotlin.concurrent.thread
 
 
