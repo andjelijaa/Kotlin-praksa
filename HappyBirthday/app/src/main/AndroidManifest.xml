@@ -36,16 +36,22 @@
         <activity
             android:name=".unit2.TipTimeActivity"
             android:exported="true">
+
+        </activity>
+
+        <activity
+            android:name=".unit2.ChangeTheAppThemeActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".unit2.AffirmationsActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".unit2.ChangeTheAppThemeActivity"
-            android:exported="true">
-
         </activity>
     </application>
 
