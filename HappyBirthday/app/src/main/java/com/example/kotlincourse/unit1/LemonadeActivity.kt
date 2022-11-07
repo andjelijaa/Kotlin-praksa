@@ -56,8 +56,8 @@ class Lemonade : AppCompatActivity() {
         val drawableResource = when (number) {
             1 -> R.drawable.image1
             2 -> R.drawable.image2
-            3 -> R.drawable.image3
-            else -> R.drawable.image4
+            3 -> R.drawable.image33
+            else -> R.drawable.image44
 
         }
         lemonImage.setImageResource(drawableResource)
