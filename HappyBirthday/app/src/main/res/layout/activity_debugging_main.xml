@@ -21,5 +21,6 @@
         android:layout_height="wrap_content"
         android:text="@string/textview"
         tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="167dp" />
+        tools:layout_editor_absoluteY="167dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
