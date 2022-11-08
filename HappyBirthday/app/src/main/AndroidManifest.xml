@@ -7,12 +7,12 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
 
-        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
 
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.HappyBirthday"
-        tools:targetApi="31"
-        android:icon="@mipmap/ic_launcher">
+        tools:targetApi="31">
         <activity
             android:name=".unit1.MainActivity"
             android:exported="true" />
@@ -46,6 +46,9 @@
         </activity>
         <activity
             android:name=".unit2.AffirmationsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unit2.Dogglers.DogglersappActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -53,6 +56,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".unit2.Dogglers.GridListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unit2.Dogglers.VerticalListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".unit2.Dogglers.HorizontalListActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
