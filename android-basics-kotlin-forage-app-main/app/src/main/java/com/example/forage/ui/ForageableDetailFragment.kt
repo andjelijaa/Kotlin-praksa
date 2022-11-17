@@ -67,7 +67,7 @@ class ForageableDetailFragment : Fragment() {
         //  and call the bind forageable method
         viewModel.retrieveForageable(id).observe(this.viewLifecycleOwner){ selectedForageable ->
             forageable=selectedForageable
-            bindForageable()gi
+            bindForageable()
         }
 
     }
